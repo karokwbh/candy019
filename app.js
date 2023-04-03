@@ -3,7 +3,7 @@
 // 題目：檢查是否為某個數字的平方數
 
 function isSquare(num) {
-  // 實作寫在這裡
+  return Math.sqrt(num, 0.5) % 1 === 0;
 }
 
 console.log(isSquare(0)) // true
